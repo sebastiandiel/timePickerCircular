@@ -4,9 +4,9 @@ import QtQuick.Layouts 1.0
 
 ApplicationWindow {
     visible: true
-    width: 840
-    height: 480
-    title: qsTr("Hello World")
+    width: 300
+    height: 450
+    title: qsTr("TimePickerCircular")
     TimePickerCircular {
         initialMinute: 35
         initialHour: 8
@@ -22,5 +22,4 @@ ApplicationWindow {
             close()
         }
     }
-
 }

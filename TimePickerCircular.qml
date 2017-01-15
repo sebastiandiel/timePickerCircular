@@ -229,7 +229,7 @@ Item {
                 Layout.maximumWidth: timePickerBase.state === "vertical" ? buttonRect.width / 4.4 : buttonRect.width
                 Layout.maximumHeight: timePickerBase.state === "vertical" ? buttonRect.height : buttonRect.height / 4.4
                 Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-                text: "Abbruch"
+                text: "Cancel"
                 onClicked: {
                     timePickerBase.cancelled()
                     timePickerCircle.state = "hours"
